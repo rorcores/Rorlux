@@ -2,6 +2,9 @@
 
 A simple blue light filter for macOS that lives in your menu bar.
 
+<img width="358" height="406" alt="Screenshot 2026-03-03 at 10 38 41 AM" src="https://github.com/user-attachments/assets/9d4911e0-b462-45ad-b249-113958d6c160" />
+
+
 ## Why
 
 f.lux used to be great — a straightforward app that warmed your screen to reduce blue light. Over the years it became bloated with automatic scheduling, location-based fading, multiple colour presets, movie modes, and more. I just wanted to toggle a warm filter on, set the intensity, and have it stay there. So I built Rlux: the blue light filter f.lux used to be.
