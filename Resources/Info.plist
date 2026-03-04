@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
     <key>CFBundleName</key>
-    <string>Rlux</string>
+    <string>Rorlux</string>
     <key>CFBundleDisplayName</key>
-    <string>Rlux</string>
+    <string>Rorlux</string>
     <key>CFBundleIdentifier</key>
-    <string>com.rlux.app</string>
+    <string>com.rorlux.app</string>
     <key>CFBundleVersion</key>
     <string>1.0.0</string>
     <key>CFBundleShortVersionString</key>
@@ -15,12 +15,14 @@
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleExecutable</key>
-    <string>Rlux</string>
+    <string>Rorlux</string>
+    <key>CFBundleIconFile</key>
+    <string>AppIcon</string>
     <key>LSMinimumSystemVersion</key>
     <string>13.0</string>
     <key>LSUIElement</key>
     <true/>
     <key>NSHumanReadableCopyright</key>
-    <string>Rlux - Simple Blue Light Filter</string>
+    <string>Rorlux - Simple Blue Light Filter</string>
 </dict>
 </plist>

@@ -40,7 +40,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     private func updateStatusBarIcon() {
         guard let button = statusItem.button else { return }
         let symbolName = appState.isEnabled ? "sun.max.fill" : "sun.max"
-        let image = NSImage(systemSymbolName: symbolName, accessibilityDescription: "Rlux")
+        let image = NSImage(systemSymbolName: symbolName, accessibilityDescription: "Rorlux")
         image?.isTemplate = true
         button.image = image
     }
