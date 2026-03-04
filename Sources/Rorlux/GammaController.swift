@@ -29,10 +29,10 @@ enum GammaController {
 
     // MARK: - Color Temperature Conversion
 
-    /// Maps warmth (0.0–1.0) to Kelvin (6500K–500K)
+    /// Maps warmth (0.0–1.0) to Kelvin (6500K–100K)
     private static func warmthToKelvin(_ warmth: Double) -> Int {
         let clamped = max(0, min(1, warmth))
-        return Int(6500.0 - clamped * 6000.0)
+        return Int(6500.0 - clamped * 6400.0)
     }
 
     static func kelvinForWarmth(_ warmth: Double) -> Int {
@@ -40,7 +40,7 @@ enum GammaController {
     }
 
     static func warmthForKelvin(_ kelvin: Int) -> Double {
-        return (6500.0 - Double(kelvin)) / 6000.0
+        return (6500.0 - Double(kelvin)) / 6400.0
     }
 
     /// Converts color temperature in Kelvin to RGB channel multipliers (0.0–1.0).
